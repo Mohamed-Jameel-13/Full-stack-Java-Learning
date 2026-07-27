@@ -6,8 +6,9 @@ public class operator {
 			
 		//1.Arithmetic operator +, -, *, /, % (remainder)
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+		
 //		int sum = a+b;
 //		int multiply = a*b;
 //		int subtract = a-b;
@@ -74,18 +75,24 @@ public class operator {
 		
 		//max of 2 no
 		
-		String result = (a>b ? "a is max" : "b is max");
+//		String result = (a>b ? "a is max" : "b is max");
+//		
+//		//positive or negative
+//		String result2 = (a>0 && b>0 ? "Positive": "Negaive");
+//		System.out.println(result);
+//		System.out.println(result2);
+//		char gender = sc.next().charAt(0);
+//		System.out.println(gender);
 		
-		//positive or negative
-		String result2 = (a>0 && b>0 ? "Positive": "Negaive");
-		System.out.println(result);
-		System.out.println(result2);
-
+//		byte age = sc.nextByte();
+//		System.out.println(age);
+		
+//		short s = sc.nextShort();
+//		System.out.println(s);
+		int jam= sc.nextInt();
+		System.out.println(jam);
 				sc.close();
 				
-				
-				
-		
 
 	}
 
