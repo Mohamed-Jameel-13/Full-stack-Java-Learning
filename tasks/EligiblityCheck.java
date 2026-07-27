@@ -30,6 +30,5 @@ public class EligiblityCheck {
 			System.out.println("Marks must be above or equal to 85");
 		}
 	}
-	
 
 }
